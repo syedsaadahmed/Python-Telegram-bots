@@ -51,8 +51,8 @@ def photo(bot, update):
     # put your keys in the header
     headers = {
         "Content-Type":"application/json",
-        "app_id": "cd1c1528",
-        "app_key": "5cc5ec30a6501f55923dcc7234c8fd04"
+        "app_id": "",
+        "app_key": ""
     }
 
     encoded_string = base64.b64encode(open("user_photo.jpg", 'r').read())
